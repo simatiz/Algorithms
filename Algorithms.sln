@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Algorithms", "Algorithms\Algorithms.pyproj", "{AA2B6F82-09FA-45B8-8D5A-456163E6E036}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lab1", "Lab1\Lab1.pyproj", "{1AA07753-4573-41E3-87D1-77A91B00D760}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA2B6F82-09FA-45B8-8D5A-456163E6E036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2B6F82-09FA-45B8-8D5A-456163E6E036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA07753-4573-41E3-87D1-77A91B00D760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA07753-4573-41E3-87D1-77A91B00D760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2ACB3CD-1E2F-4A3C-83CD-828D2CE67917}
+	EndGlobalSection
+EndGlobal
