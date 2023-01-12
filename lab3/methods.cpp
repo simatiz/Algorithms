@@ -160,12 +160,11 @@ void Index_files::search_data(int value) {
 	int l = log2(size - pow(2, k));
 	int x = 2;
 	bool flag = true;
-	int left = 0, right = 0;
+	int kk = 0;
 	if (main_data[k][1] == value) cout << main_data[k][0] << endl;
 	else {
 		while (true) {
-			if (main_data[j][1] < value) right = main_data[j][1];
-			if (main_data[j][1] > value) left = main_data[j][1];
+			kk++;
 			b = b / 2;
 			if (main_data[j][1] < value && ((size - 1) < pow(2, k))) j = j + b + 1;
 			else if ((main_data[j][1] > value) && ((size - 1) < pow(2, k))) j = j - (b + 1);
@@ -186,6 +185,7 @@ void Index_files::search_data(int value) {
 				break;
 			}
 		}
+		cout << kk << endl;
 	}
 }
 
