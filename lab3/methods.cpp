@@ -185,11 +185,6 @@ void Index_files::search_data(int value) {
 				cout << main_data[j][0] << endl;
 				break;
 			}
-
-			if (!(right > value && left < value)) {
-				cout << "Wrong index\n";
-				break;
-			}
 		}
 	}
 }
