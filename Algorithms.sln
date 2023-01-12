@@ -13,6 +13,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lab4", "Lab4\Lab4.pyproj", 
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lab5", "Lab5\Lab5.pyproj", "{A22305A4-2921-4035-8110-1A209627839B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab3", "lab3\lab3.vcxproj", "{707BFA6F-E537-4A79-818A-98EA45ECF6E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,16 @@ Global
 		{A22305A4-2921-4035-8110-1A209627839B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A22305A4-2921-4035-8110-1A209627839B}.Release|x64.ActiveCfg = Release|Any CPU
 		{A22305A4-2921-4035-8110-1A209627839B}.Release|x86.ActiveCfg = Release|Any CPU
+		{707BFA6F-E537-4A79-818A-98EA45ECF6E9}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{707BFA6F-E537-4A79-818A-98EA45ECF6E9}.Debug|x64.ActiveCfg = Debug|x64
+		{707BFA6F-E537-4A79-818A-98EA45ECF6E9}.Debug|x64.Build.0 = Debug|x64
+		{707BFA6F-E537-4A79-818A-98EA45ECF6E9}.Debug|x86.ActiveCfg = Debug|Win32
+		{707BFA6F-E537-4A79-818A-98EA45ECF6E9}.Debug|x86.Build.0 = Debug|Win32
+		{707BFA6F-E537-4A79-818A-98EA45ECF6E9}.Release|Any CPU.ActiveCfg = Release|Win32
+		{707BFA6F-E537-4A79-818A-98EA45ECF6E9}.Release|x64.ActiveCfg = Release|x64
+		{707BFA6F-E537-4A79-818A-98EA45ECF6E9}.Release|x64.Build.0 = Release|x64
+		{707BFA6F-E537-4A79-818A-98EA45ECF6E9}.Release|x86.ActiveCfg = Release|Win32
+		{707BFA6F-E537-4A79-818A-98EA45ECF6E9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
